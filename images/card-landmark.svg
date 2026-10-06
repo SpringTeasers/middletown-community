@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Illustration of a historic brick mansion with columns and a formal lawn">
+  <title>Illustration — historic mansion</title>
+  <desc>An original flat vector illustration used as a decorative card image for historic landmarks. Not a photograph.</desc>
+  <rect width="800" height="600" fill="#F3F9FC"/>
+  <path d="M0 400c170-30 300 16 460 4s220-26 340-14v210H0z" fill="#E4F1F7"/>
+  <path d="M0 470c170-26 300 12 460 2s220-20 340-10v138H0z" fill="#2F6B4F"/>
+  <!-- mansion -->
+  <rect x="200" y="230" width="380" height="230" fill="#9C3D22"/>
+  <path d="M180 230h420l-210-84z" fill="#7A2E18"/>
+  <rect x="360" y="140" width="60" height="34" fill="#7A2E18"/>
+  <rect x="200" y="230" width="380" height="16" fill="#FAEDE7"/>
+  <!-- columns -->
+  <g fill="#FAEDE7">
+    <rect x="216" y="256" width="24" height="204"/>
+    <rect x="270" y="256" width="24" height="204"/>
+    <rect x="324" y="256" width="24" height="204"/>
+    <rect x="432" y="256" width="24" height="204"/>
+    <rect x="486" y="256" width="24" height="204"/>
+    <rect x="540" y="256" width="24" height="204"/>
+  </g>
+  <g fill="#F0D6CB">
+    <rect x="212" y="246" width="32" height="12"/>
+    <rect x="266" y="246" width="32" height="12"/>
+    <rect x="320" y="246" width="32" height="12"/>
+    <rect x="428" y="246" width="32" height="12"/>
+    <rect x="482" y="246" width="32" height="12"/>
+    <rect x="536" y="246" width="32" height="12"/>
+  </g>
+  <!-- door and windows -->
+  <rect x="372" y="326" width="56" height="134" fill="#33454F"/>
+  <path d="M372 326h56l-28-30z" fill="#5C6F79"/>
+  <g fill="#E4F1F7">
+    <rect x="256" y="330" width="34" height="46"/>
+    <rect x="310" y="330" width="34" height="46"/>
+    <rect x="456" y="330" width="34" height="46"/>
+    <rect x="510" y="330" width="34" height="46"/>
+  </g>
+  <!-- steps -->
+  <rect x="322" y="460" width="156" height="12" fill="#FAEDE7"/>
+  <rect x="308" y="472" width="184" height="12" fill="#F0D6CB"/>
+  <!-- hedge -->
+  <g fill="#2F6B4F">
+    <ellipse cx="150" cy="474" rx="52" ry="22"/>
+    <ellipse cx="630" cy="474" rx="52" ry="22"/>
+  </g>
+</svg>

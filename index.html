@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Middletown, CT — Community Guide</title>
+<meta name="description" content="Everything in one place: parks and trails, local businesses, city services, library, transit, and the latest news and events in Middletown, Connecticut.">
+<link rel="canonical" href="https://middletown-community-site.example/">
+<meta name="theme-color" content="#0B2A3D">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Middletown, CT — Community Site">
+<meta property="og:title" content="Middletown, CT — Community Guide">
+<meta property="og:description" content="Everything in one place: parks and trails, local businesses, city services, library, transit, and the latest news and events in Middletown, Connecticut.">
+<meta property="og:url" content="https://middletown-community-site.example/">
+<meta property="og:image" content="https://middletown-community-site.example/images/og-image.svg">
+<meta property="og:image:alt" content="Middletown, Connecticut community site">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="index.html" aria-label="Middletown, Connecticut — community site home">
+      <img src="images/logo-horizontal.svg" alt="" width="200" height="48">
+      <span class="sr-only">Middletown community site</span>
+    </a>
+    <nav class="primary-nav" aria-label="Primary">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About</a>
+      <a href="things-to-do.html">Things to Do</a>
+      <a href="businesses.html">Businesses</a>
+      <a href="services.html">Services</a>
+      <a href="news-events.html">News &amp; Events</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-utils">
+      <button class="icon-btn theme-toggle" type="button" aria-pressed="false" aria-label="Switch to dark theme" title="Switch to dark theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true" focusable="false">
+          <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+          <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>
+        </svg>
+      </button>
+      <button class="icon-btn icon-btn--menu js-menu-open" type="button" aria-expanded="false" aria-controls="nav-sheet" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true" focusable="false">
+          <path d="M3 6h18M3 12h18M3 18h18"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="nav-sheet" id="nav-sheet" data-open="false" role="dialog" aria-modal="true" aria-label="Site menu">
+  <div class="nav-sheet__top">
+    <span class="brand" aria-hidden="true"><img src="images/logo-horizontal-inverse.svg" alt="" width="200" height="48"></span>
+    <button class="icon-btn nav-sheet__close js-menu-close" type="button" aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true" focusable="false">
+        <path d="M6 6l12 12M18 6L6 18"/>
+      </svg>
+    </button>
+  </div>
+  <nav aria-label="Site menu">
+    <ul>
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="things-to-do.html">Things to Do</a></li>
+      <li><a href="businesses.html">Businesses</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="news-events.html">News &amp; Events</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="nav-sheet__foot">
+    <button class="icon-btn theme-toggle" type="button" aria-pressed="false" aria-label="Switch to dark theme" title="Switch to dark theme" style="width:100%;justify-content:center;display:flex;gap:.5rem">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      <span>Light / dark theme</span>
+    </button>
+    <a class="btn btn--inverse" href="contact.html">Contact the City</a>
+  </div>
+</div>
+
+<main id="main">
+  <!-- 1. Hero -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__media" role="img" aria-label="Illustration of the Connecticut River bending past Middletown at dusk"></div>
+    <div class="hero__scrim"></div>
+    <div class="container hero__inner">
+      <p class="eyebrow">Middletown, Connecticut</p>
+      <h1 id="hero-title">A river city, well organised.</h1>
+      <p class="lead">Parks and trails, Main Street shops, city services, and the news that matters — everything you need about Middletown in one place.</p>
+      <div class="btn-row hero__actions">
+        <a class="btn btn--primary" href="things-to-do.html">Explore Things to Do <span class="arrow" aria-hidden="true">&rarr;</span></a>
+        <a class="btn btn--secondary" href="services.html">Town Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Quick-links strip -->
+  <div class="quick-strip">
+    <div class="container">
+      <nav class="quick-strip__grid" aria-label="Most requested">
+        <a class="quick-strip__item" href="things-to-do.html#parks">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 22v-7"/><path d="M12 15l-4-4h8z"/><path d="M12 3l5 6H7z"/></svg>
+          Parks &amp; Trails
+        </a>
+        <a class="quick-strip__item" href="businesses.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9l1.5-5h15L21 9"/><path d="M4 9h16v11H4z"/><path d="M9 20v-6h6v6"/></svg>
+          Business Directory
+        </a>
+        <a class="quick-strip__item" href="services.html#most-requested">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 3h9l4 4v14H6z"/><path d="M9 12h7M9 16h5"/></svg>
+          Pay / Apply
+        </a>
+        <a class="quick-strip__item" href="contact.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          Report an Issue
+        </a>
+      </nav>
+    </div>
+  </div>
+
+  <!-- 3. Latest notice (live city announcement) -->
+  <section class="section section--flush-top" aria-labelledby="home-notice-title">
+    <div class="container" style="padding-top:var(--space-6)">
+      <div class="notice notice--info">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 8h.01"/></svg>
+        <div>
+          <span class="notice__label">City notice</span>
+          <h2 class="notice__title" id="home-notice-title">Court Street one-way pilot begins October&nbsp;1,&nbsp;2026</h2>
+          <p>Middletown is piloting a one-way traffic pattern on Court Street. Drivers, cyclists, and pedestrians should plan for the change and watch for posted signage.</p>
+          <p><a href="news-events.html#court-street">Read more about the Court Street pilot</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Explore Middletown -->
+  <section class="section" aria-labelledby="explore-title">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">Start here</p>
+        <h2 id="explore-title">Explore Middletown</h2>
+        <p class="section-deck">Five sections cover the whole city — where to go, where to shop, who to call, and what's happening.</p>
+      </div>
+      <div class="grid grid--cards">
+        <article class="card">
+          <p class="card__eyebrow">About</p>
+          <h3 class="card__title"><a href="about.html">About Middletown</a></h3>
+          <p class="card__text">A river city with a deep history and a lively present: a sailing port turned walkable downtown, and how the city is governed today.</p>
+          <span class="card__link">Read the city profile <span class="arrow" aria-hidden="true">&rarr;</span></span>
+        </article>
+        <article class="card">
+          <p class="card__eyebrow">Things to do</p>
+          <h3 class="card__title"><a href="things-to-do.html">Things to Do</a></h3>
+          <p class="card__text">Harbor Park river views, the rugged trails and waterfalls at Seven Falls, Higby Mountain picnics, and Wadsworth Mansion.</p>
+          <span class="card__link">Find something to do <span class="arrow" aria-hidden="true">&rarr;</span></span>
+        </article>
+        <article class="card">
+          <p class="card__eyebrow">Businesses</p>
+          <h3 class="card__title"><a href="businesses.html">Local Businesses</a></h3>
+          <p class="card__text">Places to eat, shop, and grab a drink around Main Street — plus the full Middletown Local Directory.</p>
+          <span class="card__link">Browse the list <span class="arrow" aria-hidden="true">&rarr;</span></span>
+        </article>
+        <article class="card">
+          <p class="card__eyebrow">Services</p>
+          <h3 class="card__title"><a href="services.html">Town Services</a></h3>
+          <p class="card__text">City Hall, the police department, the public library, Middletown High School, Wesleyan, water, and local transit.</p>
+          <span class="card__link">Find a department <span class="arrow" aria-hidden="true">&rarr;</span></span>
+        </article>
+        <article class="card">
+          <p class="card__eyebrow">News &amp; events</p>
+          <h3 class="card__title"><a href="news-events.html">News &amp; Events</a></h3>
+          <p class="card__text">City announcements, traffic changes, and updates from the Mayor's office — plus seasonal events like America 250 Celebrate.</p>
+          <span class="card__link">See what's happening <span class="arrow" aria-hidden="true">&rarr;</span></span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Things to do this season -->
+  <section class="section section--subtle" aria-labelledby="season-title">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">This season</p>
+        <h2 id="season-title">Things to do this season</h2>
+        <p class="section-deck">Three standouts locals point visitors toward — river, trail, and history.</p>
+      </div>
+      <div class="grid grid--3">
+        <article class="card">
+          <div class="card__media">
+            <img src="images/card-riverfront.svg" alt="Illustration of a riverside park path with benches and trees" width="800" height="600" loading="lazy">
+          </div>
+          <p class="card__eyebrow">Parks &amp; trails</p>
+          <h3 class="card__title"><a href="things-to-do.html#harbor-park">Harbor Park</a></h3>
+          <p class="card__text">Some of the best views of the Connecticut River in the city — an easy, relaxing stop for a walk or a quiet moment by the water.</p>
+          <span class="card__link">See parks and trails <span class="arrow" aria-hidden="true">&rarr;</span></span>
+        </article>
+        <article class="card">
+          <div class="card__media">
+            <img src="images/card-falls.svg" alt="Illustration of a rocky trail leading up to a small waterfall" width="800" height="600" loading="lazy">
+          </div>
+          <p class="card__eyebrow">Parks &amp; trails</p>
+          <h3 class="card__title"><a href="things-to-do.html#seven-falls">Seven Falls Park</a></h3>
+          <p class="card__text">Rugged trails and beautiful waterfalls — a favourite among hikers and anyone who likes their nature with a little bit of a climb.</p>
+          <span class="card__link">See the trail notes <span class="arrow" aria-hidden="true">&rarr;</span></span>
+        </article>
+        <article class="card">
+          <div class="card__media">
+            <img src="images/card-landmark.svg" alt="Illustration of a historic brick mansion with columns and a formal lawn" width="800" height="600" loading="lazy">
+          </div>
+          <p class="card__eyebrow">Historic</p>
+          <h3 class="card__title"><a href="things-to-do.html#wadsworth-mansion">Wadsworth Mansion</a></h3>
+          <p class="card__text">A historic Middletown mansion that hosts events — a landmark worth knowing about whether you're planning a visit or a celebration.</p>
+          <span class="card__link">See landmarks <span class="arrow" aria-hidden="true">&rarr;</span></span>
+        </article>
+      </div>
+      <p style="margin-top:var(--space-6)"><a href="things-to-do.html">See all things to do in Middletown</a></p>
+    </div>
+  </section>
+
+  <!-- 6. Local spotlight -->
+  <section class="section" aria-labelledby="spotlight-title">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">Main Street</p>
+        <h2 id="spotlight-title">Local spotlight</h2>
+        <p class="section-deck">A starting point, not a complete list — independent shops, restaurants, and breweries give the city its character.</p>
+      </div>
+      <div class="grid grid--3">
+        <article class="card card--featured">
+          <div class="badge-row"><span class="pill pill--featured">Where to eat</span></div>
+          <h3 class="card__title">Olive Garden</h3>
+          <ul class="meta-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span>1005 Washington St, Middletown, CT 06457</span></li>
+          </ul>
+          <p class="card__foot"><a href="https://www.olivegarden.com" target="_blank" rel="noopener noreferrer">olivegarden.com<svg class="ext-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6"/><path d="M20 4L10 14"/><path d="M18 14v6H4V6h6"/></svg><span class="sr-only"> (opens in a new tab)</span></a></p>
+        </article>
+        <article class="card card--featured">
+          <div class="badge-row"><span class="pill pill--featured">Where to shop</span></div>
+          <h3 class="card__title">Amato's Toy and Hobby</h3>
+          <ul class="meta-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span>27 Main St, Middletown, CT 06457</span></li>
+          </ul>
+          <p class="card__text">A Main Street institution for toys, hobbies, and gifts.</p>
+          <p class="card__foot"><a href="https://www.amatostoy.com" target="_blank" rel="noopener noreferrer">amatostoy.com<svg class="ext-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6"/><path d="M20 4L10 14"/><path d="M18 14v6H4V6h6"/></svg><span class="sr-only"> (opens in a new tab)</span></a></p>
+        </article>
+        <article class="card card--featured">
+          <div class="badge-row"><span class="pill pill--featured">Where to grab a drink</span></div>
+          <h3 class="card__title">Forest City Brewing</h3>
+          <ul class="meta-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span>360 Main St, Middletown, CT 06457</span></li>
+          </ul>
+          <p class="card__text">A local brewery on Main Street — a good stop for craft beer and a relaxed evening.</p>
+          <p class="card__foot"><a href="https://forestcitybrewing.com" target="_blank" rel="noopener noreferrer">forestcitybrewing.com<svg class="ext-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6"/><path d="M20 4L10 14"/><path d="M18 14v6H4V6h6"/></svg><span class="sr-only"> (opens in a new tab)</span></a></p>
+        </article>
+      </div>
+      <p style="margin-top:var(--space-6)"><a href="businesses.html">Browse the business directory</a></p>
+    </div>
+  </section>
+
+  <!-- 7. News & events -->
+  <section class="section section--subtle" aria-labelledby="news-title">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">What's happening</p>
+        <h2 id="news-title">News &amp; events</h2>
+        <p class="section-deck">City announcements, traffic changes, and updates from the Mayor's office.</p>
+      </div>
+      <ul class="post-list">
+        <li class="post">
+          <span class="post__date" aria-hidden="true"><span class="d">1</span><span class="m">Oct</span></span>
+          <div class="post__body">
+            <span class="pill pill--notice">Notice</span>
+            <h3><a href="news-events.html#court-street">Court Street one-way pilot</a></h3>
+            <p><time datetime="2026-10-01">Effective October 1, 2026</time> — the city is piloting a one-way traffic pattern on Court Street. Plan for the change and watch for posted signage.</p>
+          </div>
+        </li>
+        <li class="post">
+          <span class="post__date" aria-hidden="true"><span class="d">25</span><span class="m">Sep</span></span>
+          <div class="post__body">
+            <span class="pill pill--info">City news</span>
+            <h3><a href="news-events.html#mayor-newsletter">Mayor Nocera's latest newsletter</a></h3>
+            <p><time datetime="2026-09-25">September 25, 2026</time> — a plain-language rundown of current city initiatives and developments.</p>
+          </div>
+        </li>
+        <li class="post">
+          <span class="post__date" aria-hidden="true"><span class="d">250</span><span class="m">Anniv.</span></span>
+          <div class="post__body">
+            <span class="pill pill--notice">Seasonal</span>
+            <h3><a href="things-to-do.html#america-250">America 250 Celebrate</a></h3>
+            <p>Middletown is marking the nation's 250th anniversary with a program of events that engages residents throughout the year.</p>
+          </div>
+        </li>
+      </ul>
+      <p style="margin-top:var(--space-6)"><a href="news-events.html">See all news &amp; events</a></p>
+    </div>
+  </section>
+
+  <!-- 8. Services at a glance -->
+  <section class="section" aria-labelledby="services-title">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">Practical stuff</p>
+        <h2 id="services-title">Services at a glance</h2>
+        <p class="section-deck">The departments and services people ask about most, linked directly from the Town Services page.</p>
+      </div>
+      <nav class="grid grid--tiles" aria-label="Services at a glance">
+        <a class="card card--compact" href="services.html#city-hall">
+          <p class="card__eyebrow">City Hall</p>
+          <h3 class="card__title">Contact the city</h3>
+          <p class="card__text">245 deKoven Drive · (860) 638-4801</p>
+        </a>
+        <a class="card card--compact" href="services.html#departments">
+          <p class="card__eyebrow">Departments</p>
+          <h3 class="card__title">Police &amp; public safety</h3>
+          <p class="card__text">Non-emergency contacts, services, and department information. Call 911 in an emergency.</p>
+        </a>
+        <a class="card card--compact" href="services.html#schools">
+          <p class="card__eyebrow">Education</p>
+          <h3 class="card__title">Schools &amp; university</h3>
+          <p class="card__text">Middletown High School and Wesleyan University.</p>
+        </a>
+        <a class="card card--compact" href="services.html#library">
+          <p class="card__eyebrow">Library</p>
+          <h3 class="card__title">Middletown Library</h3>
+          <p class="card__text">Books, programs, digital resources, and community space.</p>
+        </a>
+        <a class="card card--compact" href="services.html#utilities">
+          <p class="card__eyebrow">Utilities</p>
+          <h3 class="card__title">Water service</h3>
+          <p class="card__text">Connecticut Water provides water service to the area.</p>
+        </a>
+        <a class="card card--compact" href="services.html#transit">
+          <p class="card__eyebrow">Getting around</p>
+          <h3 class="card__title">Middletown Area Transit</h3>
+          <p class="card__text">Public transit serving Middletown and the surrounding area.</p>
+        </a>
+      </nav>
+    </div>
+  </section>
+
+  <!-- 9. Quick facts -->
+  <section class="section section--subtle" aria-labelledby="facts-title">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">At a glance</p>
+        <h2 id="facts-title">Middletown quick facts</h2>
+      </div>
+      <div class="stats">
+        <div class="stat">
+          <span class="stat__value">~47,481</span>
+          <span class="stat__label">Population</span>
+          <span class="stat__source">2010 Census</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value">1785</span>
+          <span class="stat__label">County seat from</span>
+          <span class="stat__source">Middlesex County, until 1960</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value">Middlesex</span>
+          <span class="stat__label">County</span>
+          <span class="stat__source">Lower Connecticut River Valley Planning Region</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value">Mayor–council</span>
+          <span class="stat__label">Form of government</span>
+          <span class="stat__source">Led by Mayor Gene Nocera</span>
+        </div>
+      </div>
+      <p style="margin-top:var(--space-6)"><a href="about.html">Read more about Middletown</a></p>
+    </div>
+  </section>
+
+  <!-- 10. Contact CTA band -->
+  <section class="section" aria-labelledby="cta-title">
+    <div class="container">
+      <div class="card card--accent">
+        <h2 id="cta-title">Need to reach the city?</h2>
+        <p style="max-width:var(--container-text)">City Hall is at 245 deKoven Drive. Call (860) 638-4801, or use the contact page to find the right department.</p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="contact.html">Contact the City</a>
+          <a class="btn btn--ghost" href="services.html">Town services &amp; links</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <span class="brand" aria-hidden="true"><img src="images/logo-horizontal-inverse.svg" alt="" width="200" height="48"></span>
+        <p class="foot-desc" style="margin-top:var(--space-3)">A community information site for Middletown, Connecticut — the city on the Connecticut River.</p>
+      </div>
+      <nav aria-label="Footer">
+        <h2>Explore</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="things-to-do.html">Things to Do</a></li>
+          <li><a href="businesses.html">Businesses</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="news-events.html">News &amp; Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2>Popular</h2>
+        <ul>
+          <li><a href="services.html#city-hall">City Hall &amp; contact</a></li>
+          <li><a href="services.html#library">Middletown Library</a></li>
+          <li><a href="services.html#transit">Middletown Area Transit</a></li>
+          <li><a href="services.html#utilities">Water service</a></li>
+          <li><a href="businesses.html">Business directory</a></li>
+          <li><a href="news-events.html">City news &amp; alerts</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Get in touch</h2>
+        <div class="foot-contact">
+          <address>Middletown City Hall<br>245 deKoven Drive<br>Middletown, CT 06457</address>
+          <a href="tel:+18606384801"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M4 5h4l2 5-2 2a12 12 0 0 0 5 5l2-2 5 2v4a1 1 0 0 1-1 1A16 16 0 0 1 3 6a1 1 0 0 1 1-1z"/></svg>(860) 638-4801</a>
+          <a href="https://www.middletownct.gov/991/Contact-Us" target="_blank" rel="noopener noreferrer">Official city contact page<span class="sr-only"> (opens in a new tab)</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-legal">
+      <ul>
+        <li><a href="accessibility.html">Accessibility statement</a></li>
+        <li><a href="contact.html">Report a problem with this page</a></li>
+        <li><a href="https://www.middletownct.gov/" target="_blank" rel="noopener noreferrer">City of Middletown official site<span class="sr-only"> (opens in a new tab)</span></a></li>
+      </ul>
+      <p>&copy; 2026 Middletown Community Site. This is a community information site. It is not the official website of the City of Middletown and it links to official City of Middletown sources for authoritative information.</p>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" type="button" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 19V5"/><path d="M6 11l6-6 6 6"/></svg>
+</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>

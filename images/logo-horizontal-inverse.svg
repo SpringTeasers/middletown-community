@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" width="200" height="48" role="img" aria-label="Middletown, Connecticut">
+  <title>Middletown — community site logo, inverse</title>
+  <g fill="none">
+    <path d="M2 38c0-6 5-11 11-11h14c9 0 16 4 24 4 9 0 16-5 25-5h108v6H76c-9 0-16 5-25 5-8 0-15-4-24-4H13c-3 0-5 2-5 5z"
+          fill="#8FC5DA"/>
+    <path d="M11 27v-9M17 27v-13M23 27v-7" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+  <text x="8" y="27" font-family="Georgia,'Times New Roman',serif" font-size="21" font-weight="600" fill="#FFFFFF">MIDDLETOWN</text>
+  <text x="8" y="46" font-family="Helvetica,Arial,sans-serif" font-size="7.5" letter-spacing="1.2" fill="#E4F1F7">CONNECTICUT</text>
+</svg>

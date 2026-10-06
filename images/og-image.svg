@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Middletown, Connecticut community site">
+  <title>Middletown, Connecticut — community site social card</title>
+  <desc>Open Graph share image: the inverse Middletown lockup over a dark river-blue field, with a thin accent rule. The title area is intentionally left empty for per-page titles.</desc>
+  <rect width="1200" height="630" fill="#0B2A3D"/>
+  <circle cx="1010" cy="130" r="210" fill="#124A66" opacity="0.55"/>
+  <circle cx="1080" cy="560" r="150" fill="#15617F" opacity="0.4"/>
+  <rect x="80" y="150" width="120" height="6" fill="#1B7FA6"/>
+  <g transform="translate(80 300)">
+    <path d="M0 46c0-9 7-16 16-16h22c14 0 25 6 38 6 14 0 25-8 40-8h168v10H116c-15 0-26 8-40 8-13 0-24-6-38-6H24c-5 0-8 3-8 8z" fill="#8FC5DA"/>
+    <path d="M14 30V16M23 30V10M32 30v-9" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    <text x="8" y="34" font-family="Georgia,'Times New Roman',serif" font-size="34" font-weight="600" fill="#FFFFFF">MIDDLETOWN</text>
+    <text x="8" y="70" font-family="Helvetica,Arial,sans-serif" font-size="12" letter-spacing="2.4" fill="#8FC5DA">CONNECTICUT · COMMUNITY SITE</text>
+  </g>
+  <text x="80" y="530" font-family="Helvetica,Arial,sans-serif" font-size="20" fill="#E4F1F7">Parks, businesses, city services and news — in one place.</text>
+</svg>

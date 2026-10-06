@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Middletown">
+  <title>Middletown — mark</title>
+  <!-- Mark only, tuned for small sizes: skyline strokes dropped,
+       ribbon widened to 3 units so it survives rasterisation. -->
+  <rect width="32" height="32" rx="7" fill="#124A66"/>
+  <text x="16" y="21.5" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="17" font-weight="600" fill="#FFFFFF">M</text>
+  <path d="M5 25c1.6 0 3-1.4 4.6-1.4S12.2 25 13.8 25s3-1.4 4.6-1.4S21.4 25 23 25s3-1.4 4-1.4"
+        fill="none" stroke="#1B7FA6" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Illustration of a flag beside a lawn with bunting, marking a civic anniversary">
+  <title>Illustration — civic anniversary commemoration</title>
+  <desc>An original flat vector illustration used as a decorative card image for seasonal and community events. Not a photograph.</desc>
+  <rect width="800" height="600" fill="#F3F9FC"/>
+  <path d="M0 430c160-30 300 14 460 2s220-24 340-12v180H0z" fill="#3F8563"/>
+  <path d="M0 502c160-24 300 10 460 0s220-18 340-8v106H0z" fill="#2F6B4F"/>
+  <!-- flagpole -->
+  <rect x="392" y="120" width="10" height="360" fill="#33454F"/>
+  <circle cx="397" cy="114" r="9" fill="#C99A2E"/>
+  <path d="M402 140h190l-38 34 38 34H402z" fill="#F4E4BC"/>
+  <g fill="#9C3D22">
+    <rect x="420" y="152" width="54" height="18"/>
+    <rect x="420" y="178" width="54" height="18"/>
+  </g>
+  <g fill="#124A66">
+    <rect x="488" y="152" width="54" height="18"/>
+    <rect x="488" y="178" width="54" height="18"/>
+  </g>
+  <!-- bunting -->
+  <path d="M0 300c200 70 600 70 800 0" fill="none" stroke="#33454F" stroke-width="3"/>
+  <g>
+    <path d="M96 322l26 46 26-46z" fill="#9C3D22"/>
+    <path d="M210 342l26 46 26-46z" fill="#F4E4BC"/>
+    <path d="M324 354l26 46 26-46z" fill="#124A66"/>
+    <path d="M438 356l26 46 26-46z" fill="#9C3D22"/>
+    <path d="M552 348l26 46 26-46z" fill="#F4E4BC"/>
+    <path d="M666 330l26 46 26-46z" fill="#124A66"/>
+  </g>
+</svg>

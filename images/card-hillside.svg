@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Illustration of a rounded summertime hill with a picnic blanket and trees">
+  <title>Illustration — hill trails and picnicking</title>
+  <desc>An original flat vector illustration used as a decorative card image for parks and picnicking. Not a photograph.</desc>
+  <rect width="800" height="600" fill="#F3F9FC"/>
+  <circle cx="640" cy="130" r="52" fill="#F4E4BC"/>
+  <path d="M0 330c150-70 280 10 420-24s240-56 380-20v314H0z" fill="#2F6B4F"/>
+  <path d="M0 402c160-50 300 8 440-18s220-40 360-12v228H0z" fill="#3F8563"/>
+  <path d="M0 486c150-34 300 14 460-6s220-24 340-8v128H0z" fill="#4E9A75"/>
+  <g>
+    <rect x="118" y="352" width="10" height="46" fill="#7A2E18"/>
+    <circle cx="123" cy="332" r="32" fill="#2F6B4F"/>
+    <circle cx="104" cy="348" r="22" fill="#3F8563"/>
+  </g>
+  <g>
+    <rect x="668" y="366" width="10" height="40" fill="#7A2E18"/>
+    <circle cx="673" cy="346" r="28" fill="#2F6B4F"/>
+    <circle cx="656" cy="362" r="20" fill="#3F8563"/>
+  </g>
+  <!-- picnic blanket -->
+  <path d="M330 470h150l24 52H306z" fill="#FAEDE7"/>
+  <path d="M344 470h20l-16 52h-20zM392 470h20l-16 52h-20zM440 470h20l-12 52h-20z" fill="#B8543A"/>
+  <circle cx="370" cy="452" r="9" fill="#9C3D22"/>
+  <rect x="420" y="442" width="26" height="16" rx="3" fill="#C99A2E"/>
+</svg>

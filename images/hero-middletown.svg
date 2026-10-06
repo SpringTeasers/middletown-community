@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 600" width="1600" height="600" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a river bend with a riverside town skyline at dusk">
+  <title>Illustration — the Connecticut River bend at Middletown</title>
+  <desc>An original flat vector illustration: a wide river curving through the frame, a low brick-toned roofline on the near bank, and layered hills behind. Not a photograph.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B2A3D"/>
+      <stop offset="0.55" stop-color="#15617F"/>
+      <stop offset="1" stop-color="#8FC5DA"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1B7FA6"/>
+      <stop offset="1" stop-color="#0B2A3D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="600" fill="url(#sky)"/>
+  <!-- low sun -->
+  <circle cx="1240" cy="300" r="66" fill="#F4E4BC" opacity="0.55"/>
+  <!-- far hills -->
+  <path d="M0 330c150-52 250 6 380-24 130-30 220 22 350 8s210-46 330-30 260 62 400 40 140-24 140-24v90H0z"
+        fill="#124A66" opacity="0.75"/>
+  <!-- mid bank -->
+  <path d="M0 380c180-40 300 20 470 0s260-56 430-36 260 66 430 52 270-46 270-46v92H0z"
+        fill="#0B2A3D" opacity="0.9"/>
+  <!-- brick roofline on the near bank -->
+  <g fill="#7A2E18">
+    <rect x="120" y="316" width="70" height="72"/>
+    <rect x="196" y="300" width="54" height="88"/>
+    <rect x="256" y="330" width="84" height="58"/>
+    <rect x="346" y="308" width="62" height="80"/>
+    <rect x="1050" y="322" width="74" height="66"/>
+    <rect x="1130" y="304" width="52" height="84"/>
+    <rect x="1188" y="332" width="88" height="56"/>
+  </g>
+  <g fill="#9C3D22">
+    <path d="M196 300l27-22 27 22z"/>
+    <path d="M346 308l31-26 31 26z"/>
+    <path d="M1130 304l26-22 26 22z"/>
+  </g>
+  <!-- lit windows -->
+  <g fill="#F4E4BC" opacity="0.85">
+    <rect x="132" y="336" width="10" height="12"/><rect x="152" y="336" width="10" height="12"/>
+    <rect x="210" y="322" width="10" height="12"/><rect x="228" y="322" width="10" height="12"/>
+    <rect x="362" y="330" width="10" height="12"/><rect x="382" y="330" width="10" height="12"/>
+    <rect x="1064" y="342" width="10" height="12"/><rect x="1084" y="342" width="10" height="12"/>
+    <rect x="1200" y="352" width="10" height="12"/><rect x="1220" y="352" width="10" height="12"/>
+  </g>
+  <!-- the river -->
+  <path d="M0 452c220-46 340 34 560 22s300-70 520-56 300 62 520 46v136H0z" fill="url(#water)"/>
+  <!-- river reflection strokes -->
+  <g stroke="#8FC5DA" stroke-width="4" stroke-linecap="round" opacity="0.4" fill="none">
+    <path d="M180 496h150M420 520h190M700 500h170M980 524h180M300 552h230M760 560h210"/>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Illustration of a downtown storefront row on a brick-paved main street">
+  <title>Illustration — Main Street storefronts</title>
+  <desc>An original flat vector illustration used as a decorative card image for the business directory. Not a photograph.</desc>
+  <rect width="800" height="600" fill="#F3F9FC"/>
+  <path d="M0 430h800v170H0z" fill="#EDF1F3"/>
+  <path d="M0 470h800v130H0z" fill="#DCE3E7"/>
+  <g stroke="#9AA9B2" stroke-width="3">
+    <path d="M60 470v130M200 470v130M340 470v130M480 470v130M620 470v130M760 470v130"/>
+  </g>
+  <!-- storefront row -->
+  <g>
+    <rect x="40" y="240" width="150" height="192" fill="#9C3D22"/>
+    <rect x="216" y="212" width="164" height="220" fill="#7A2E18"/>
+    <rect x="406" y="248" width="150" height="184" fill="#B8543A"/>
+    <rect x="582" y="222" width="178" height="210" fill="#9C3D22"/>
+  </g>
+  <g fill="#FAEDE7">
+    <rect x="40" y="240" width="150" height="16"/>
+    <rect x="216" y="212" width="164" height="16"/>
+    <rect x="406" y="248" width="150" height="16"/>
+    <rect x="582" y="222" width="178" height="16"/>
+  </g>
+  <!-- awnings -->
+  <g>
+    <path d="M40 256h150l-14 34H54z" fill="#124A66"/>
+    <path d="M216 228h164l-16 36H232z" fill="#2F6B4F"/>
+    <path d="M406 264h150l-14 34H420z" fill="#8A6412"/>
+    <path d="M582 238h178l-16 36H598z" fill="#124A66"/>
+  </g>
+  <!-- shop windows and doors -->
+  <g fill="#E4F1F7">
+    <rect x="56" y="306" width="56" height="72"/>
+    <rect x="126" y="306" width="48" height="72"/>
+    <rect x="236" y="286" width="60" height="84"/>
+    <rect x="312" y="286" width="52" height="84"/>
+    <rect x="422" y="314" width="54" height="72"/>
+    <rect x="490" y="314" width="52" height="72"/>
+    <rect x="598" y="296" width="62" height="84"/>
+    <rect x="676" y="296" width="68" height="84"/>
+  </g>
+  <g fill="#33454F">
+    <rect x="126" y="386" width="48" height="46"/>
+    <rect x="312" y="376" width="52" height="56"/>
+    <rect x="490" y="392" width="52" height="40"/>
+    <rect x="676" y="386" width="68" height="46"/>
+  </g>
+</svg>
